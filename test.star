@@ -6,7 +6,6 @@ URL = "https://svc.metrotransit.org/NexTrip//902/1/5SNI?format=json"
 URL2 = "https://svc.metrotransit.org/NexTrip//902/0/5SNI?format=json"
 
 
-
 def main():  
 
      MTT = http.get(URL).json()
