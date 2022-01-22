@@ -105,13 +105,13 @@ def get_schema():
             schema.Text(
                 id = "stop_code",
                 name = "Stop ID",
-                desc = "Station's Stop ID from (https://www.metrotransit.org/stops-stations)",
+                desc = "Light Rail Station's Stop ID from (https://www.metrotransit.org/stops-stations)",
                 icon = "subway",
             ),
 
            schema.Text(
                 id = "station_name",
-                name = "Station Full Name from (https://www.metrotransit.org/stops-stations)",
+                name = "Light Rail Station Full Name from (https://www.metrotransit.org/stops-stations)",
                 desc = "Your Station's Full Name",
                 icon = "keyboard",
             ),
