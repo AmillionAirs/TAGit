@@ -111,8 +111,8 @@ def get_schema():
 
            schema.Text(
                 id = "station_name",
-                name = "Light Rail Station Full Name from (https://www.metrotransit.org/stops-stations)",
-                desc = "Your Station's Full Name",
+                name = "Station Name",
+                desc = "Light Rail Station Full Name from (https://www.metrotransit.org/stops-stations)",
                 icon = "keyboard",
             ),
 
