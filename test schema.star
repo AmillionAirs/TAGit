@@ -115,5 +115,5 @@ def get_schema():
                 desc = "Light Rail Station's Full Name from (https://www.metrotransit.org/stops-stations)",
                 icon = "keyboard",
             ),
-
+        ],
     )
